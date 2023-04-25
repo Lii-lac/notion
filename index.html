@@ -5,6 +5,8 @@
       #lbl {
         display: flex;
         font-family: sans-serif;
+        font-weight: bold;
+        font-style: italic;
         font-size: 18pt;
         color: #ffffff;
         padding: 5px;
@@ -37,16 +39,16 @@
 
 <script>
     var weekday = new Array(7);
-    weekday[0] = "sunday";
-    weekday[1] = "monday";
-    weekday[2] = "tuesday";
-    weekday[3] = "wednesday";
-    weekday[4] = "thursday";
-    weekday[5] = "friday";
-    weekday[6] = "saturday";
+    weekday[0] = "𝙨𝙪𝙣𝙙𝙖𝙮";
+    weekday[1] = "𝙢𝙤𝙣𝙙𝙖𝙮";
+    weekday[2] = "𝙩𝙪𝙚𝙨𝙙𝙖𝙮";
+    weekday[3] = "𝙬𝙚𝙙𝙣𝙚𝙨𝙙𝙖𝙮";
+    weekday[4] = "𝙩𝙝𝙪𝙧𝙨𝙙𝙖𝙮";
+    weekday[5] = "𝙛𝙧𝙞𝙙𝙖𝙮";
+    weekday[6] = "𝙨𝙖𝙩𝙪𝙧𝙙𝙖𝙮";
 
-    const monthNames = ["january", "february", "march", "april", "may", "june",
-      "july", "august", "september", "october", "november", "december"
+    const monthNames = ["𝙟𝙖𝙣𝙪𝙖𝙧𝙮", "𝙛𝙚𝙗𝙪𝙖𝙧𝙮", "𝙢𝙖𝙧𝙘𝙝", "𝙖𝙥𝙧𝙞𝙡", "𝙢𝙖𝙮", "𝙟𝙪𝙣𝙚",
+      "𝙟𝙪𝙡𝙮", "𝙖𝙪𝙜𝙪𝙨𝙩", "𝙨𝙚𝙥𝙩𝙚𝙢𝙗𝙚𝙧", "𝙤𝙘𝙩𝙤𝙗𝙚𝙧", "𝙣𝙤𝙫𝙚𝙢𝙗𝙚𝙧", "𝙙𝙚𝙘𝙚𝙢𝙗𝙚𝙧"
     ];
 
     
@@ -66,7 +68,7 @@
 
     document.getElementById('lbl').innerHTML = `
         <div class="container">
-          <div id="date">𝙛𝙤𝙧 𝙩𝙝𝙚 𝙛𝙞𝙧𝙨𝙩 𝙩𝙞𝙢𝙚 𝙚𝙫𝙚𝙧, 𝙞𝙩'𝙨</div>
+          <div id="date">𝘧𝘰𝘳 𝘵𝘩𝘦 𝘧𝘪𝘳𝘴𝘵 𝘵𝘪𝘮𝘦 𝘦𝘷𝘦𝘳, 𝘪𝘵'𝘴</div>
           <div class="greeting">${date}</div>
         <div/>
     `;
